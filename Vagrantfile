@@ -1,3 +1,4 @@
+system "vagrant plugin install vagrant-hostsupdater"
 Vagrant.configure("2") do |config|
 # what version you want
   config.vm.box = "ubuntu/xenial64"

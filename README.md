@@ -49,7 +49,7 @@ The next command that would be run is
 
 This allows the user into the secure shell of the virtual machine's terminal.
 
-This would update all the plugins inside the shell.
+This would update all the latest package inside the shell.
 
 ``sudo apt-get update``
 
@@ -61,6 +61,7 @@ Nginx is a web server which can also be used as a reverse proxy.
 
 Nginx is a web server that will run on the virtual machine allowing you to host the web application.
 
+To see if the server is running correctly you would type in http://development.local/ in the url of the web browser.
 
 # Sparta Node Sample App
 

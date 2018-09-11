@@ -39,15 +39,19 @@ The next command would then be typed up in the terminal
 
 This command would spin up the server for the virtualbox.
 
+The next command that would need to be run is
+
+``vagrant plugin install vagrant-hostsupdater ``
+
 The next command that would be run is
 
 ``Vagrant ssh ``
 
 This allows the user into the secure shell of the virtual machine's terminal.
 
-The next command that would need to be run is
+This would update all the plugins inside the shell.
 
-``vagrant plugin install vagrant-hostsupdater ``
+``sudo apt-get update``
 
 After the virtual machine has successfully installed all the plugins it needs. The next step is to install Nginx and this can be done with the following command inside the vagrant ssh.
 
